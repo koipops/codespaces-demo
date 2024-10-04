@@ -14,7 +14,9 @@ main {
 }
 
 .masthead {
-    background: no-repeat bottom / cover; url('image/mac.png');
+    background-image: url('image/mac.png');
+    background-size: cover;
+    background-position: bottom;
     height: 200px;
     border-radius: 20px;
 }
